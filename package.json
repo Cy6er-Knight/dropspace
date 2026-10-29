@@ -1,0 +1,26 @@
+{
+  "name": "dropspace",
+  "version": "1.5.0",
+  "description": "Drag something onto one computer and it shows up on the other. Works over your Wi-Fi with no accounts, no cloud and no dependencies.",
+  "author": "Abdur Rahman Ansar",
+  "main": "server.js",
+  "bin": {
+    "dropspace": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "file-transfer",
+    "airdrop",
+    "local-network",
+    "drag-and-drop",
+    "clipboard",
+    "lan"
+  ],
+  "license": "MIT"
+}
